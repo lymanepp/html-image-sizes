@@ -1,0 +1,12 @@
+name: 'HTML Image Sizes'
+description: 'Updates HTML image references with the height and width of the image.'
+
+inputs:
+  path:
+    description: 'The directory containing the static website'
+    required: true
+    default: '.'
+
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/lymanepp/html-image-sizes:main'
