@@ -1,0 +1,11 @@
+{
+  "name": "html-image-sizes",
+  "main": "index.js",
+  "repository": "https://github.com/lymanepp/html-image-sizes.git",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "glob": "^11.0.0",
+    "image-size": "^1.1.1"
+  }
+}
